@@ -18,7 +18,7 @@ function Layout() {
           <MessBox />
         </div>
 
-        <div className="bg-gray-50 w-1/4 flex flex-col items-center py-10  border-l border-gray-100">
+        <div className="bg-gray-50 w-1/2 flex flex-col items-center py-10  border-l border-gray-100">
           <Profile />
         </div>
       </div>
