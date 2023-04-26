@@ -9,7 +9,7 @@ function Layout() {
       <div className="flex flex-col h-screen w-20 bg-slate-950 text-gray-300 items-center py-5">
         <Nav />
       </div>
-      <div className="w-1/4 bg-gray-50 flex flex-col items-center py-5">
+      <div className="w-1/4 bg-gray-50 flex flex-col items-center py-5 border-r border-gray-100">
         <ContactList />
       </div>
 
@@ -18,7 +18,7 @@ function Layout() {
           <MessBox />
         </div>
 
-        <div className="bg-gray-50 w-1/4 flex flex-col items-center py-10 ">
+        <div className="bg-gray-50 w-1/4 flex flex-col items-center py-10  border-l border-gray-100">
           <Profile />
         </div>
       </div>
